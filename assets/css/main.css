@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Inter:wght@300;400;500&display=swap');
 @import url("fontawesome-all.min.css");
 
 /*
@@ -100,7 +100,7 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #fff;
-		font-family: 'Source Sans Pro', sans-serif;
+		font-family: 'Inter', sans-serif;
 		font-size: 15pt;
 		font-weight: 300 !important;
 		letter-spacing: -0.025em;
@@ -226,8 +226,9 @@ input, select, textarea {
 		transform: translate3d(0,0,0);
 	/* Set your background with this */
 
-		background: #348cb2 url("images/bg.jpg") bottom left;
-		background-repeat: repeat-x;
+		background: url("images/oak.jpg") center center;
+background-size: cover;
+background-repeat: no-repeat;
 		height: 100%;
 		left: 0;
 		opacity: 1;
@@ -554,16 +555,20 @@ input, select, textarea {
 	}
 
 		#header h1 {
-			font-size: 4.35em;
-			font-weight: 900;
-			letter-spacing: -0.035em;
-			line-height: 1em;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 5rem;
+    font-weight: 700;
+    letter-spacing: .12em;
+    line-height: 1em;
+    text-transform: none;
 		}
 
 		#header p {
-			font-size: 1.25em;
-			margin: 0.75em 0 0.25em 0;
-			opacity: 0.75;
+    font-size: 1.15rem;
+    margin-top: 1.4rem;
+    line-height: 1.8;
+    opacity: .9;
+    letter-spacing: .08em;
 		}
 
 		#header nav {
